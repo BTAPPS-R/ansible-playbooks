@@ -1,0 +1,13 @@
+all:
+  hosts:
+    mail.example.com:
+  children:
+    remote:
+      hosts:
+        10.0.0.5:
+    local:
+      hosts:
+        localhost:
+          ansible_connection: local
+
+
