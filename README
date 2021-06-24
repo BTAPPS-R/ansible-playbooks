@@ -1,4 +1,4 @@
-ansible-galaxy install-r requirements.yml
+ansible-galaxy install -r requirements.yml
 ansible-playbook -i inventory.yml site.yml
 
 
