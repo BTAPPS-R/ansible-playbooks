@@ -1,6 +1,6 @@
-ansible-galaxy install -r requirements.yml
-ansible-playbook -i inventory site.yml
+ansible-galaxy install-r requirements.yml
+ansible-playbook -i inventory.yml site.yml
 
 
 ansible-galaxy install -r requirements-jen.yml
-ansible-playbook -i inventory jenkins.yml
+ansible-playbook -i inventory.yml jenkins.yml
